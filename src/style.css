@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+}
+.nav, header{
+    height: 4rem;
+    background-color: #802D4A;
+    width: 100%;
+    text-align: center;
+}
+
+.pure-menu-link{
+    color: white !important;
+}
+
+.home{
+    display: flex;
+    
+}
+.home{
+    background: url(img/fondo.jpg);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.cuadro{
+    background-color:rgba(77, 27, 44, 0.19);
+    margin: 10%;
+    padding: 0 2rem;
+    text-align: center;
+    z-index: 1000;
+    width: -webkit-fill-available;
+   
+}
+
+.Hi{
+    font-family: 'Pridi', serif;
+    font-size: 3rem;
+}
+
+.about{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.circulo{
+    width: 150px;
+    height: 150px;
+    margin: 5%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #4D1B2C;
+    border: 50px solid #956173;
+    text-align: center;
+
+}
+
+.perfil{
+    width: 300px;
+}
+.nombre{
+
+    font-family: 'Pridi', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.yo{
+    font-family: 'Pridi', serif;
+    font-size: 1rem;
+    text-align: justify;
+}
