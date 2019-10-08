@@ -1,16 +1,39 @@
 body{
+    box-sizing: border-box;
     margin:0;
-    padding:0;
-}
-.nav, header{
-    height: 4rem;
-    background-color: #802D4A;
-    width: 100%;
-    text-align: center;
+    padding:0;  
 }
 
-.pure-menu-link{
-    color: white !important;
+nav{
+    position: fixed;
+    background-color: #802D4A;  
+    z-index: 1000;
+    width:-webkit-fill-available;
+}
+
+header{
+    background-color: #802D4A;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.nav-ul{
+    list-style: none; 
+}
+   
+.nav-ul li{
+    display: inline-block;
+    padding:2px 10px;    
+}
+
+li, a {
+    font-family: 'Pridi', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:white;
+    text-decoration: none; 
+    
 }
 
 .home{
@@ -18,7 +41,7 @@ body{
     
 }
 .home{
-    background: url(img/fondo.jpg);
+    background: url(img/home-fondo.jpg);
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +55,7 @@ body{
     margin: 10%;
     padding: 0 2rem;
     text-align: center;
-    z-index: 1000;
+    z-index: 500;
     width: -webkit-fill-available;
    
 }
@@ -40,6 +63,7 @@ body{
 .Hi{
     font-family: 'Pridi', serif;
     font-size: 3rem;
+    color: white;
 }
 
 .about{
@@ -47,23 +71,26 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color:  rgba(149, 97, 115, 0.50);
+    padding: 0 2rem;
+    
 }
 
 .circulo{
     width: 150px;
     height: 150px;
-    margin: 5%;
+    margin: 5% 10% 5% 0;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #4D1B2C;
-    border: 50px solid #956173;
-    text-align: center;
+    border: 50px solid #805362;
 
 }
 
 .perfil{
-    width: 300px;
+   
+    padding: 0rem, 1rem;
 }
 .nombre{
 
@@ -71,9 +98,37 @@ body{
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
+    margin-top: -.5rem;
+    color: white;
 }
-.yo{
+
+.descripción{
     font-family: 'Pridi', serif;
     font-size: 1rem;
     text-align: justify;
+   
+}
+.titulo2{
+    text-align: center;
+    font-family: 'Pridi', serif;
+    font-size: 1rem; 
+}
+.container-proyectos{
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.A{
+    width: 200px;
+    border:solid 1px #4D1B2C;
+}
+.c1{
+    background-color: #956173;
+    width: 200px;
+    height: 200px;
+}
+.c2{
+    background-color: 
+    width: 200px;
+    height: 200px;
 }
