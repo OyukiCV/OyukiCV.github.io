@@ -2,91 +2,152 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portafolio</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <!--navbar-->
+    <header>
+        <nav id="items-nav" class="items-nav">
+            <ul>
+                <li> <a href="#">Acerca de mi</a></li>
+                <li> <a href="#">Portafolio</a></li>
+                <li> <a href="#">Contáctame</a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="menuHamburger()">
+            <div class="hamburger"></div>
+        </div>
+    </header>
 
-	<header>
-		<nav>
+    <!--Bienvenida-->
+    <section class="home">
+        <div class="cuadro">
+            <h1>Bienvenidos </br> a mi espacio</h1>
+        </div>
+    </section>
+    <!--Section Acerca de mi-->
+    <section class="presentacion">
+        <div class="datos-gral">
 
-			<ul class="nav-ul">
-				<li class=""> <a href="#" class="">Acerca de mi</a>
-				</li>
-				<li class=""> <a href="#" class="">Portafolio</a>
-				</li>
-				<li class=""> <a href="#" class="">Contáctame</a>
-				</li>
-			</ul>
+            <h1>Oyuki Collado</h1>
+            <p class="txt-datos">Desarrolladora web | Diseñadora Gráfica</p>
+        </div>
+        <div class="perfil">
+            <p class="txt-titulo">ACERCA DE MI</p>
 
-		</nav>
-	</header>
-	<!--Bienvenida-->
-	<section class="home">
-		<div class="cuadro">
-			<p class="Hi">Bienvenidos </br> a mi espacio</p>
-		</div>
-	</section>
-	<!--Section Acerca de mi-->
-	<section class="about">
-		<div class="circulo">
-			<p class="nombre">OYUKI COLLADO VELASCO</p>
-		</div>
-		<div class="perfil">
-			<p class="descripción">ACERCA DE MI</p>
-			<p class="descripción">Esta soy yo, incursionando en el mundo del código, cada aprendiendo un poco de
-				Javascript, html, css y lo que se vaya agregando para hacer mis pininos.
-				</br> Antes de descubrir el mundo de la programación fui diseñadora gráfica.
-				</br> Dato curioso: Me gustan mucho los michis pero no tengo ninguno.</p>
-		</div>
-	</section>
-	<!--Proyectos-->
-	<section class="proyectos">
-		<p class="titulo2">PROYECTOS</p>
-		<div class="container-proyectos">
-			<div class="A">
-				<div class="c1"></div>
-				<div>
-					<p>Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit.
-						Donec egestas hendrerit
-						diam ac malesuada. </p>
-				</div>
-			</div>
+            <p class="txt-presentacion"> Esta soy yo, incursionando en el mundo del código, cada aprendiendo un poco de Javascript, html, css y lo que se vaya agregando para hacer mis pininos.
+                </br> Antes de descubrir el mundo de la programación fui diseñadora gráfica.
+                </br> Dato curioso: Me gustan mucho los michis pero no tengo ninguno.</p>
+        </div>
+    </section>
 
-			<div class="A">
-				<div class="c1"></div>
-				<div>
-					<p>Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit.
-						Donec egestas hendrerit
-						diam ac malesuada. </p>
-				</div>
-			</div>
+    <!--Proyectos-->
 
-			<div class="A">
-				<div class="c1"></div>
-				<div>
-					<p>Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit.
-						Donec egestas hendrerit
-						diam ac malesuada. </p>
-				</div>
-			</div>
+    <section class="proyectos">
+        <div class="center">
+            <p class="txt-titulo white">PROYECTOS</p>
+        </div>
 
-		</div>
-	</section>
+        <div class="cards-container">
 
+            <div class="card">
+                <div class="image">
+                    <img src="img/dt-lovers.png">
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <h4>DATA LOVERS</h4>
+                        <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-	<section>
-		<p>Contactame</p>
-	</section>
+            <div class="card">
+                <div class="image">
+                    <img src="img/dt-lovers.png">
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <h4>LABCAR</h4>
+                        <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="img/dt-lovers.png">
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <h4>CIPHER</h4>
+                        <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="img/cat-min.jpg">
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <h1>Titulo principal</h1>
+                        <p>texto descritivo etc texto descritivo etctexto descritivo etc texto descritivo etc texto descritivo etc</p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!--Datos contacto-->
+
+    <section class="contacto">
+        <p class="txt-titulo white ">CONTACTAME</p>
+
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="https://github.com/OyukiCV"> <img class="contacto-img" src="img/github-sign.png"></a>
+                </li>
+                <li>
+                    <a href=""> <img class="contacto-img" src="img/gmail-logo.svg"></a>
+                </li>
+                <li>
+                    <a href=""> <img class="contacto-img" src="img/linkedin-logo.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 
 </html>
