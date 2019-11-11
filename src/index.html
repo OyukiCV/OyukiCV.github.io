@@ -12,11 +12,14 @@
 <body>
     <!--navbar-->
     <header>
+        <a href="#home"><img class="brand-logo" src="img/Logo-oyuki.png" /></a>
         <nav id="items-nav" class="items-nav">
+
             <ul>
-                <li> <a href="#">Acerca de mi</a></li>
-                <li> <a href="#">Portafolio</a></li>
-                <li> <a href="#">Contáctame</a></li>
+                <li> <a href="#aboutme">Acerca de mi</a></li>
+                <li> <a href="#portafolio">Portafolio</a></li>
+                <li> <a href="#habilidades">Habilidades</a></li>
+                <li> <a href="#contacto">Contáctame</a></li>
             </ul>
         </nav>
         <div id="menu-toggle" class="menu-toggle" onClick="menuHamburger()">
@@ -25,20 +28,21 @@
     </header>
 
     <!--Bienvenida-->
-    <section class="home">
+    <section id="home" class="home">
+
         <div class="cuadro">
             <h1>Bienvenidos </br> a mi espacio</h1>
         </div>
     </section>
     <!--Section Acerca de mi-->
-    <section class="presentacion">
+    <section id="aboutme" class="presentacion">
         <div class="datos-gral">
 
             <h1>Oyuki Collado</h1>
             <p class="txt-datos">Desarrolladora web | Diseñadora Gráfica</p>
         </div>
         <div class="perfil">
-            <p class="txt-titulo">ACERCA DE MI</p>
+            <h1>ACERCA DE MI</h1>
 
             <p class="txt-presentacion"> Esta soy yo, incursionando en el mundo del código, cada aprendiendo un poco de Javascript, html, css y lo que se vaya agregando para hacer mis pininos.
                 </br> Antes de descubrir el mundo de la programación fui diseñadora gráfica.
@@ -48,26 +52,26 @@
 
     <!--Proyectos-->
 
-    <section class="proyectos">
+    <section id="portafolio" class="proyectos">
         <div class="center">
-            <p class="txt-titulo white">PROYECTOS</p>
+            <h1>PROYECTOS</h1>
         </div>
 
         <div class="cards-container">
 
             <div class="card">
                 <div class="image">
-                    <img src="img/dt-lovers.png">
+                    <img src="img/lol-dl.png">
                 </div>
                 <div class="details">
                     <div class="center">
                         <h4>DATA LOVERS</h4>
                         <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
                         </p>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                        <ul class="links-cards">
+                            <li><a href="#">Código</a></li>
+                            <li><a href="#">Demo</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -75,17 +79,16 @@
 
             <div class="card">
                 <div class="image">
-                    <img src="img/dt-lovers.png">
+                    <img src="img/labcar.png">
                 </div>
                 <div class="details">
                     <div class="center">
                         <h4>LABCAR</h4>
-                        <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
+                        <p>El objetivo de este proyecto fue poner en practica el css y como hacer una página tanto para formato desktop como mobile.
                         </p>
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#">Código</a></li>
+                            <li><a href="#">Demo</a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,17 +96,16 @@
 
             <div class="card">
                 <div class="image">
-                    <img src="img/dt-lovers.png">
+                    <img src="img/burger-queen.png">
                 </div>
                 <div class="details">
                     <div class="center">
-                        <h4>CIPHER</h4>
-                        <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.
+                        <h4>BURGER QUEEN</h4>
+                        <p>En este proyecto se creó una aplicación personalizada para una antojeria vegana.
                         </p>
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#">Código</a></li>
+                            <li><a href="#">Demo</a></li>
                         </ul>
                     </div>
                 </div>
@@ -118,9 +120,9 @@
                         <h1>Titulo principal</h1>
                         <p>texto descritivo etc texto descritivo etctexto descritivo etc texto descritivo etc texto descritivo etc</p>
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-square 3x"></i></a></li>
+                            <li><a href="#">Código</a></li>
+                            <li><a href="#">Demo</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -128,21 +130,35 @@
 
     </section>
 
+    <!--habilidades-->
+    <section id="habilidades" class="habilidades">
+        <h1>HABILIDADES</h1>
+        <div class="container-habilidades">
+
+            <img class="habilidades-tec" src="img/html-5.svg">
+            <img class="habilidades-tec" src="img/css.svg">
+            <img class="habilidades-tec" src="img/javascript.svg">
+            <img class="habilidades-tec" src="img/react.svg">
+        </div>
+
+    </section>
+
     <!--Datos contacto-->
 
-    <section class="contacto">
-        <p class="txt-titulo white ">CONTACTAME</p>
+    <section id="contacto" class="contacto">
+        <h1 class="white">CONTACTAME</h1>
 
         <div class="links">
             <ul>
                 <li>
-                    <a href="https://github.com/OyukiCV"> <img class="contacto-img" src="img/github-sign.png"></a>
+                    <a href="https://github.com/OyukiCV"> <img class="contacto-img" src="img/github-logo-blanco.svg"></a>
                 </li>
                 <li>
-                    <a href=""> <img class="contacto-img" src="img/gmail-logo.svg"></a>
+                    <a href=""> <img class="contacto-img" src="img/linkedin-logo-blanco.svg"></a>
                 </li>
                 <li>
-                    <a href=""> <img class="contacto-img" src="img/linkedin-logo.svg"></a>
+                    <a href=""> <img class="contacto-img" src="img/email-logo-blanco.svg"></a>
+
                 </li>
             </ul>
         </div>
