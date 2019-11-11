@@ -1,7 +1,7 @@
-function menuHamburger(){
+function menuHamburger() {
     let itemsNav = document.getElementById('items-nav');
-        itemsNav.classList.toggle('items-nav-open');
+    itemsNav.classList.toggle('items-nav-open');
     let menuOpen = document.getElementById('menu-toggle');
-        menuOpen.classList.toggle('menu-open');    
-     
+    menuOpen.classList.toggle('menu-open');
+
 }
