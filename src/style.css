@@ -139,6 +139,12 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #802D4A;
+    text-align: center;
+}
+
 .presentacion {
     font-family: 'Mukta Mahee', sans-serif;
 }
