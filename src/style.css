@@ -411,13 +411,16 @@ p {
     .brand-logo {
         max-width: 9%;
     }
+    .items-nav ul {
+        padding-right: 20px;
+    }
     .cuadro {
         padding: 22% 25% 0% 5%;
     }
     .cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 12%;
+        margin: 0 6%;
     }
 }
 
@@ -428,6 +431,6 @@ p {
     .cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 20%;
+        margin: 0 12%;
     }
 }
