@@ -139,6 +139,12 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    font-family: 'Mukta Mahee', sans-serif;
+    color: #802D4A;
+    text-align: center;
+}
+
 .presentacion {
     font-family: 'Mukta Mahee', sans-serif;
 }
@@ -251,7 +257,7 @@ h1 {
     margin: 0;
     padding: 0;
     color: #802D4A;
-   /* line-height: 10px;*/
+    /* line-height: 10px;*/
 }
 
 li {
@@ -260,7 +266,7 @@ li {
 
 ul {
     list-style: none;
-    display:initial;
+    display: initial;
 }
 
 p {
@@ -268,19 +274,22 @@ p {
     text-align: initial;
     line-height: 1rem;
 }
-.izq{
-    float:left;
+
+.izq {
+    float: left;
 }
-.der{
-    float:right;
+
+.der {
+    float: right;
 }
-.padd-2{
-    padding-bottom:2rem;
+
+.padd-2 {
+    padding-bottom: 2rem;
 }
 
 .habilidades {
     text-align: center;
-    padding-bottom:1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .container-habilidades {
@@ -305,7 +314,7 @@ p {
 }
 
 .links ul {
-    display:contents;
+    display: contents;
 }
 
 .contacto-img {
@@ -313,11 +322,13 @@ p {
     margin: .5rem;
 }
 
-.creditos{
-    font-size:1rem;
-    color:white;
-    text-align:center;
+.creditos {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
 }
+
+
 /*medias queries*/
 
 @media(min-width:320px) {
@@ -329,6 +340,11 @@ p {
 @media(min-width:480px) {
     .brand-logo {
         max-width: 12%;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 6%;
     }
 }
 
@@ -387,6 +403,7 @@ p {
     .cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 0 6%;
     }
 }
 
@@ -400,11 +417,17 @@ p {
     .cards-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 12%;
     }
 }
 
 @media(min-width:1200px) {
     .brand-logo {
         max-width: 6%;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 20%;
     }
 }
