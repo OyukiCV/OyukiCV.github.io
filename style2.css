@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta Mahee', sans-serif;
+    background-color: #eceff1;
+}
+
+.brand-logo{
+ margin: .8rem;
+}
+
+h1, h3, h4 {
+    
+    color: #00838f;
+    font-weight: bold;
+    font-size: 2rem;
+}
+p{
+    text-align: justify;
+    margin: 1rem;
+}
+.txt-datos {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.txt-presentacion {
+    margin: 1rem 2.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.card-title-2{
+    color: #00838f;
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+    margin-left: 1rem;
+}
+
+a{
+    color: white !important;
+}

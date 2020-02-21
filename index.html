@@ -2,158 +2,146 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portafolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyuki C</title>
+    <link rel="shortcut icon" href="img/favicon-ocv.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:300,400,500,600,700,800&display=swap"
+        rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="style2.css" />
 </head>
 
 <body>
-    <!--navbar-->
-    <header>
-        <a href="#home">
-            <img class="brand-logo" src="img/Logo-oyuki.png" />
-        </a>
-        <nav id="items-nav" class="items-nav">
-            <ul>
-                <li> <a href="#aboutme">Acerca de mi</a>
-                </li>
-                <li> <a href="#portafolio">Portafolio</a>
-                </li>
-                <li> <a href="#habilidades">Habilidades</a>
-                </li>
-                <li> <a href="#contacto">Contáctame</a>
-                </li>
-            </ul>
+
+    <header class=" navbar-fixed">
+        <nav class="cyan darken-3">
+            <div class="nav-wrapper container">
+                <img class="brand-logo " src="img/Logo-oyuki-white.png" width="60" height="40" />
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#aboutme">ACERCA DE MI</a></li>
+                    <li><a href="#portafolio">PORTAFOLIO</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#contacto">CONTÁCTAME</a></li>
+                </ul>
+            </div>
         </nav>
-        <div id="menu-toggle" class="menu-toggle" onClick="menuHamburger()">
-            <div class="hamburger"></div>
-        </div>
+        <ul class="sidenav right" id="mobile-demo">
+            <li><a href="">ACERCA DE MI</a></li>
+            <li><a href="">PORTAFOLIO</a></li>
+            <li><a href="">HABILIDADES</a></li>
+            <li><a href="">CONTÁCTAME</a></li>
+        </ul>
     </header>
-    <!--Bienvenida-->
-    <section id="home" class="home">
-        <div class="img-logo">
-            <img src="img/Logo-oyuki.png">
-        </div>
-        <div class="cuadro">
-            <h1>Bienvenidos </br> a mi espacio</h1>
-        </div>
-    </section>
+
     <!--Section Acerca de mi-->
-    <section id="aboutme" class="presentacion">
-        <div class="datos-gral">
-            <h1>Oyuki Collado</h1>
-            <p class="txt-datos">Desarrolladora web | Diseñadora Gráfica</p>
-        </div>
-        <div class="perfil">
-            <h1>ACERCA DE MI</h1>
-            <p class="txt-presentacion">Una desarrolladora Front-End que cada día aprende un poco más de este vasto mundo de la programación y de sus infinitas posibilidades. También soy diseñadora gráfica y recientemente he trabajado en el diseño digital. Me interesan los proyectos
-                que no solo desarrollan lenguaje de programación sino que pueda aportar mi experiencia en el diseño visual del mismo.</p>
+    <section id="aboutme" class="container">
+        <div class="row">
+            <div class="center col s12 m6">
+                <h1>OYUKI COLLADO</h1>
+                <p class="txt-datos">Desarrolladora Web | Diseñadora Gráfica</p>
+            </div>
+            <div class="center col s12 m6">
+                <h1>ACERCA DE MI</h1>
+                <p class="txt-presentacion">Desarrolladora Front-End con background en diseño gráfico. Busco colaborar
+                    en proyectos
+                    con equipos multidisciplinarios y diversos que me permitan desarrollar mi creatividad y capacidad de
+                    aportar soluciones para
+                    crear resultados de valor.
+                </p>
+            </div>
         </div>
     </section>
+
     <!--Proyectos-->
-    <section id="portafolio" class="proyectos">
+    <section id="portafolio" class="container">
         <div class="center">
             <h1>PROYECTOS</h1>
         </div>
-
-        <h3>FrontEnd</h3>
-
-        <div class="cards-container">
-            <div class="card">
-                <div class="image">
-                    <img src="img/pandmonium.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>PAND'MONIUM</h4>
-                        <p>Proyecto donde se creó una aplicación personalizada para una antojeria vegana con el fin de facilitar la toma de comandas. Proyecto realizado con Javascript, React, HTML, CSS y SASS.</p>
-                        <ul>
-                            <li class="izq"><a href="https://github.com/OyukiCV/MEX008-FE-Burger-Queen" target=»_blank»>Código</a>
-                            </li>
-                            <li class="der"><a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target=»_blank»>Demo</a>
-                            </li>
-                        </ul>
+        <!--card proyecto 1-->
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/pandmonium.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title card-title-2 activator ">PAND'MONIUM<i class="material-icons right">more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action cyan darken-4">
+                        <a href="#">Código</a>
+                        <a class="right" href="#">Demo</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title card-title-2">PAND'MONIUM<i class="material-icons right">close</i>
+                        </span>
+                        <span></span>
+                        <p>Proyecto donde se creó una aplicación personalizada para una antojeria vegana con el fin de
+                            facilitar la toma de comandas.
+                            Proyecto realizado con Javascript, React, HTML, CSS y SASS.</p>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="image">
-                    <img src="img/labcar.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>LABCAR</h4>
+          
+            <!--card proyecto 2-->
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/labcar.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title card-title-2 activator ">LABCAR<i class="material-icons right">more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action cyan darken-4">
+                        <a href="#">Código</a>
+                        <a class="right" href="#">Demo</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title card-title-2">LABCAR<i class="material-icons right">close</i>
+                        </span>
+                        <span></span>
                         <p>Maquetación responsive de una web app de servicio de taxis. Proyecto realizado con HTML y CSS.</p>
-                        <ul class="links-proyectos">
-                            <li class="izq"><a href="https://github.com/OyukiCV/labcar" target=»_blank»>Código</a>
-                            </li>
-                            <li class="der"><a href="https://oyukicv.github.io/labcar/" target=»_blank»>Demo</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="image">
-                    <img src="img/lol.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>LEAGUE OF LEGENDS</h4>
+             <!--card proyecto 3-->
+             <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/lol.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title card-title-2 activator ">LEAGUE OF LEGENDS<i class="material-icons right">more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action cyan darken-4">
+                        <a href="#">Código</a>
+                        <a class="right" href="#">Demo</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title card-title-2">LEAGUE OF LEGENDS<i class="material-icons right">close</i>
+                        </span>
+                        <span></span>
                         <p>El objetivo de este proyecto fue manipular la data de League of legends, ordenandola de manera alfabética, mostrando los datos más relevantes de cada Champ.</p>
-                        <ul class="links-cards">
-                            <li class="izq"><a href="https://github.com/OyukiCV/MEX-Data-Lovers-008" target=»_blank»>Código</a>
-                            </li>
-                            <li class="der"><a href="https://oyukicv.github.io/MEX-Data-Lovers-008/src/" target=»_blank»>Demo</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <h3>Diseño</h3>
-
-        <div class="cards-container">
-            <div class="card">
-                <div class="image">
-                    <img src="img/cedva.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>POSTAL CARRERAS</h4>
-                        <p>Set de postales digitales para publicitar las diferentes carreras ofrecidas por CEDVA.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="img/postal-mh2.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>POSTAL PRODUCTOS </h4>
-                        <p>Postal realizada para promocionar los productos hechos y distribuidos por la empresa.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="img/postal-mh.jpg">
-                </div>
-                <div class="details">
-                    <div class="center">
-                        <h4>POSTAL PANTIMEDIAS</h4>
-                        <p>Postal realizada para promocionar a MH como distribuidora de pantimedias grado médico.</p>
-                    </div>
-                </div>
-            </div>
         </div>
+    
     </section>
+
+
     <!--habilidades-->
-    <section id="habilidades" class="habilidades">
+    <!-- <section id="habilidades" class="habilidades">
         <h1 class="padd-2">HABILIDADES</h1>
         <div class="container-habilidades">
             <img class="habilidades-tec" src="img/html-5.svg">
@@ -165,9 +153,10 @@
             <img class="habilidades-tec" src="img/photoshop.svg">
             <img class="habilidades-tec" src="img/indesign.svg">
         </div>
-    </section>
+    </section> -->
+
     <!--Datos contacto-->
-    <section id="contacto" class="contacto">
+    <!-- <section id="contacto" class="contacto">
         <h1 class="white">CONTÁCTAME</h1>
         <div class="links">
             <ul>
@@ -185,16 +174,17 @@
                     <a href="mailto:oyukicvls@gmail.com">
                         <img class="contacto-img" src="img/email-logo-blanco.svg">
                     </a>
-                </li>
-                <!-- <li>
+                </li> -->
+    <!-- <li>
                     <a href="">
                         <img class="contacto-img" src="img/behance-blanco.svg">
                     </a>
                 </li> -->
-            </ul>
+    <!-- </ul>
             <p class="creditos">Diseño realizado por Oyuki C.</p>
         </div>
-    </section>
+    </section> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="app.js"></script>
 </body>
 
