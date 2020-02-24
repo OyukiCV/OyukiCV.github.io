@@ -4,10 +4,17 @@ body {
     box-sizing: border-box;
     font-family: 'Mukta Mahee', sans-serif;
     background-color: #eceff1;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .brand-logo{
  margin: .8rem;
+}
+
+.about-me{
+    padding:4% 0 3% 0;
 }
 
 h1, h3, h4 {
@@ -25,6 +32,7 @@ p{
     line-height: 2rem;
     font-weight: 500;
     margin: 2rem;
+    text-align: center;
 }
 
 .txt-presentacion {
@@ -41,6 +49,33 @@ p{
     margin-left: 1rem;
 }
 
-a{
-    color: white !important;
+.padd-2 {
+    padding-bottom: 2rem;
+}
+
+.habilidades {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.container-habilidades {
+    padding: 2rem;
+    /* display: contents; */
+}
+
+.habilidades-tec {
+    width: 60px;
+    padding: .5rem;
+}
+
+
+.contacto {
+    font-family: 'Mukta Mahee', sans-serif;
+    margin: 2.5rem 2rem;
+   
+}
+
+.contacto-img {
+    width: 40px;
+    margin: .5rem;
 }
