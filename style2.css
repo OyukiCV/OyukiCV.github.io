@@ -60,14 +60,35 @@ p{
 
 .container-habilidades {
     padding: 2rem;
-    /* display: contents; */
+    display: contents;
 }
 
 .habilidades-tec {
-    width: 60px;
-    padding: .5rem;
+    width: 70px;
+    margin: 1rem;
 }
 
+.hab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hab ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+ ul li p{
+     text-align: center;
+ }
+
+ .skill{
+     margin-top: -0.2rem;
+     font-weight: 500;
+ }
 
 .contacto {
     font-family: 'Mukta Mahee', sans-serif;
