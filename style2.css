@@ -38,7 +38,7 @@ p{
 .txt-presentacion {
     margin: 1rem 2.5rem;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6rem;
 }
 
@@ -114,17 +114,16 @@ h2{
     font-weight: bold;
     font-size: 1.2rem ;
     max-width: 100%;
-    padding: 24px;
    
 }
 .card-content {
-    min-height: 422px;
+    min-height: 396px;
 }
 
 .txt-descripcion {
     margin-top: 1rem !important;
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6rem;
 }
 
@@ -133,8 +132,9 @@ h2{
     font-size: 1.1rem;
     margin-bottom: 0;
 }
-.btn-small{
-    margin: 1rem 1rem 2.5rem;
+.card-action{
+    display: flex;
+    justify-content: space-between;
 }
 
 .title-skills {
@@ -153,4 +153,10 @@ h2{
 .habilidades-soft {
     width: 90px;
     margin: 1rem;
+}
+
+@media (max-width: 600px) { 
+    .card-content {
+        min-height: 0;
+    }
 }
