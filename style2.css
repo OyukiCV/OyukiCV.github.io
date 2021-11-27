@@ -42,13 +42,6 @@ p{
     line-height: 1.6rem;
 }
 
-.card-title-2{
-    color: #00838f;
-    font-weight: bold !important;
-    font-size: 1.2rem !important;
-    margin-left: 1rem;
-}
-
 .padd-2 {
     padding-bottom: 2rem;
 }
@@ -116,18 +109,29 @@ h2{
     background-color: white;
     margin: 10% 20%;
 }
+.card-title-blue{
+    color: #00838f;
+    font-weight: bold;
+    font-size: 1.2rem ;
+    max-width: 100%;
+    padding: 24px;
+   
+}
+.card-content {
+    min-height: 422px;
+}
 
 .txt-descripcion {
-    margin: 2.5rem;
+    margin-top: 1rem !important;
     text-align: justify;
     font-size: 1.1rem;
     line-height: 1.6rem;
 }
 
 .txt-list{
-    margin: -1.5rem 2.5rem 2rem;
     text-align: justify;
     font-size: 1.1rem;
+    margin-bottom: 0;
 }
 .btn-small{
     margin: 1rem 1rem 2.5rem;
